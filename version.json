@@ -1,0 +1,7 @@
+﻿{
+  "version": "1.0.4.0",
+  "minVersion": "1.0.0.0",
+  "downloadUrl": "https://github.com/omercnsz/truvadesktop-update/releases/download/v1.0.4.0/TruvaVPN_Package_v1.0.4.0.msix",
+  "releaseNotes": "Otomatik guncelleme destegi eklendi.",
+  "forceUpdate": true
+}
