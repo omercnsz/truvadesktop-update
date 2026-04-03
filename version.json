@@ -1,7 +1,7 @@
 {
-  "version": "1.0.5.1",
+  "version": "1.0.5.2",
   "minVersion": "1.0.0.0",
-  "downloadUrl": "https://github.com/omercnsz/truvadesktop-update/releases/download/v1.0.5.1/TruvaVPN_Setup_v1.0.5.1.exe",
-  "releaseNotes": "Güncelleme hatası giderildi (v1.0.5.1 - Dosya kullanımda sorunu çözüldü).",
+  "downloadUrl": "https://github.com/omercnsz/truvadesktop-update/releases/download/v1.0.5.2/TruvaVPN_Setup_v1.0.5.2.exe",
+  "releaseNotes": "Kritik guncelleme hatasi giderildi (Admin yetkisi ve dosya kilidi).",
   "forceUpdate": true
 }
