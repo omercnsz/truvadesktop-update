@@ -1,7 +1,7 @@
-﻿{
-  "version": "1.0.4.0",
+{
+  "version": "1.0.5.1",
   "minVersion": "1.0.0.0",
-  "downloadUrl": "https://github.com/omercnsz/truvadesktop-update/releases/download/v1.0.4.0/TruvaDesktop_v1.0.4.0.exe",
-  "releaseNotes": "Guncelleme formati MSIX yerine EXE olarak degistirildi.",
+  "downloadUrl": "https://github.com/omercnsz/truvadesktop-update/releases/download/v1.0.5.1/TruvaVPN_Setup_v1.0.5.1.exe",
+  "releaseNotes": "Güncelleme hatası giderildi (v1.0.5.1 - Dosya kullanımda sorunu çözüldü).",
   "forceUpdate": true
 }
