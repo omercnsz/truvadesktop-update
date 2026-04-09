@@ -1,7 +1,7 @@
 {
-    "releaseNotes": "Arayüz iyileştirmeleri ve hata düzeltmeleri yapıldı.",
+    "releaseNotes": "Nitro Geçit Hattı tamamen yeniden yazıldı. TUN/sing-box yerine WinDivert tabanlı DNS şifreleme (DoH) ve SNI fragmentasyonu. Discord ping sorunları çözüldü, oyun ve ses trafiğine sıfır etki.",
     "forceUpdate": true,
-    "downloadUrl": "https://github.com/omercnsz/truvadesktop-update/releases/download/v1.0.5.8/TruvaVPN_Setup_v1.0.5.8.exe",
-    "version": "1.0.5.8",
+    "downloadUrl": "https://github.com/omercnsz/truvadesktop-update/releases/download/v1.0.6.0/TruvaVPN_Setup_v1.0.6.0.exe",
+    "version": "1.0.6.0",
     "minVersion": "1.0.0.0"
 }
