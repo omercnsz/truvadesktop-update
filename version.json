@@ -1,6 +1,6 @@
 {
     "version": "1.0.8.1",
-    "downloadUrl": "https://github.com/omercnsz/truvadesktop-update/releases/download/v1.0.8.1/TruvaVPN_Setup_v1.0.8.1.exe",
+    "downloadUrl": "https://github.com/omercnsz/truvadesktop-update/releases/download/v1.0.8.1/TruvaVPN_Setup_v1.0.8.1_rev2.exe",
     "releaseNotes": "KRİTİK GÜNCELLEME:\n- Uygulama açılışında yaşanan çökme sorunu (0xc000041d) giderildi.\n- Obfuscation ve WinDivert bağımlılıkları optimize edildi.\n- DNS Purify (IPv6 bloklama) stabil hale getirildi.\n- Nitro performansı artırıldı.",
     "forceUpdate": true,
     "minVersion": "1.0.0.0"
