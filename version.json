@@ -1,7 +1,7 @@
 {
     "releaseNotes": "IPv4 Zorlama Modu: IPv6 üzerinden sızarak engellere takılan paketler (Discord Update hatası vb.) engellendi. DoH hızı optimize edildi.",
     "forceUpdate": true,
-    "downloadUrl": "https://github.com/omercnsz/truvadesktop-update/releases/download/v1.0.5.9/TruvaVPN_Setup_v1.0.5.9.exe",
-    "version": "1.0.5.9",
+    "downloadUrl": "https://github.com/omercnsz/truvadesktop-update/releases/download/v1.0.6.0/TruvaVPN_Setup_v1.0.6.0.exe",
+    "version": "1.0.6.0",
     "minVersion": "1.0.0.0"
 }
