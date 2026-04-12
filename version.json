@@ -1,7 +1,7 @@
-﻿{
-    "releaseNotes":  "Güvenlik katmanları eklendi: Anti-debug ve URL Maskeleme.",
-    "forceUpdate":  true,
-    "downloadUrl":  "https://github.com/omercnsz/truvadesktop-update/releases/download/v1.0.5.0/TruvaVPN_Setup_v1.0.5.0.exe",
-    "version":  "1.0.5.0",
-    "minVersion":  "1.0.0.0"
+{
+    "version": "1.0.8.0",
+    "url": "https://github.com/omercnsz/TruvaDesktop/releases/download/v1.0.8.0/TruvaVPN_Setup_v1.0.8.0.exe",
+    "changelog": "- DNS Purify (IPv6 bloklama) eklendi.\n- Nitro stabilite iyileştirmeleri.\n- Disk kullanımı için loglama optimize edildi.\n- Kod güvenliği artırıldı.",
+    "forceUpdate": true,
+    "minVersion": "1.0.0.0"
 }
