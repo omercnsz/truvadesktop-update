@@ -1,7 +1,7 @@
 {
-    "version": "6.0.1.0",
-    "downloadUrl": "https://github.com/omercnsz/truvadesktop-update/releases/download/v6.0.1/TruvaDesktop_Setup_v6.0.1.exe",
-    "releaseNotes": "v6.0.1 — Kritik hotfix: bypass artik dogru calisiyor. Daha onceki v6.0.0'da paket interception loop'u baslatilmamisti. Detaylar: github.com/omercnsz/truvadesktop-update/releases/tag/v6.0.1",
+    "version": "6.0.2.0",
+    "downloadUrl": "https://github.com/omercnsz/truvadesktop-update/releases/download/v6.0.2/TruvaDesktop_Setup_v6.0.2.exe",
+    "releaseNotes": "v6.0.2 — IPC handshake timeout ve default fragment davranisi duzeltildi. v6.0.1'de Logic ile UI handshake fail oluyordu, bypass calismiyordu.",
     "forceUpdate": true,
     "minVersion": "1.0.0.0"
 }
