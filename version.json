@@ -1,7 +1,7 @@
 {
-    "version": "6.0.2.0",
-    "downloadUrl": "https://github.com/omercnsz/truvadesktop-update/releases/download/v6.0.2/TruvaDesktop_Setup_v6.0.2.exe",
-    "releaseNotes": "v6.0.2 — IPC handshake timeout ve default fragment davranisi duzeltildi. v6.0.1'de Logic ile UI handshake fail oluyordu, bypass calismiyordu.",
+    "version": "6.0.3.0",
+    "downloadUrl": "https://github.com/omercnsz/truvadesktop-update/releases/download/v6.0.3/TruvaDesktop_Setup_v6.0.3.exe",
+    "releaseNotes": "v6.0.3 - Kritik hotfix: UI artik yonetici haklariyla baslar. Discord ve DPI-engelli uygulamalar artik dogru calismaktadir.",
     "forceUpdate": true,
     "minVersion": "1.0.0.0"
 }
