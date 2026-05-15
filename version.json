@@ -1,7 +1,7 @@
 {
-    "version": "6.0.3.0",
-    "downloadUrl": "https://github.com/omercnsz/truvadesktop-update/releases/download/v6.0.3/TruvaDesktop_Setup_v6.0.3.exe",
-    "releaseNotes": "v6.0.3 - Kritik hotfix: UI artik yonetici haklariyla baslar. Discord ve DPI-engelli uygulamalar artik dogru calismaktadir.",
+    "version": "6.0.4.0",
+    "downloadUrl": "https://github.com/omercnsz/truvadesktop-update/releases/download/v6.0.4/TruvaDesktop_Setup_v6.0.4.exe",
+    "releaseNotes": "v6.0.4 - Kritik UAC fix: Registry AppCompat Layers ile uygulama her acilista yonetici olarak baslar. Oyun Modu sekmesine canli diagnostics paneli eklendi (engine durumu, recv/match/fragment sayaclari, log tail).",
     "forceUpdate": true,
     "minVersion": "1.0.0.0"
 }
