@@ -1,7 +1,7 @@
 {
-    "version": "6.0.4.0",
-    "downloadUrl": "https://github.com/omercnsz/truvadesktop-update/releases/download/v6.0.4/TruvaDesktop_Setup_v6.0.4.exe",
-    "releaseNotes": "v6.0.4 - Kritik UAC fix: Registry AppCompat Layers ile uygulama her acilista yonetici olarak baslar. Oyun Modu sekmesine canli diagnostics paneli eklendi (engine durumu, recv/match/fragment sayaclari, log tail).",
+    "version": "6.0.5.0",
+    "downloadUrl": "https://github.com/omercnsz/truvadesktop-update/releases/download/v6.0.5/TruvaDesktop_Setup_v6.0.5.exe",
+    "releaseNotes": "v6.0.5 - Diagnostic hotfix: Logic spawn sonrasi early-exit kontrolu ve stderr/stdout yakalama eklendi. v6.0.4'te Logic UI uzerinden spawn olunca sessizce fail oluyordu; artik gercek hata mesaji Diagnostics panelinde gorunur.",
     "forceUpdate": true,
     "minVersion": "1.0.0.0"
 }
