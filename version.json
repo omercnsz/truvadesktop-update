@@ -1,7 +1,7 @@
 {
-    "version": "6.0.5.0",
-    "downloadUrl": "https://github.com/omercnsz/truvadesktop-update/releases/download/v6.0.5/TruvaDesktop_Setup_v6.0.5.exe",
-    "releaseNotes": "v6.0.5 - Diagnostic hotfix: Logic spawn sonrasi early-exit kontrolu ve stderr/stdout yakalama eklendi. v6.0.4'te Logic UI uzerinden spawn olunca sessizce fail oluyordu; artik gercek hata mesaji Diagnostics panelinde gorunur.",
+    "version": "6.0.6.0",
+    "downloadUrl": "https://github.com/omercnsz/truvadesktop-update/releases/download/v6.0.6/TruvaDesktop_Setup_v6.0.6.exe",
+    "releaseNotes": "v6.0.6 - Logic spawn diagnostic: stdout redirect kaldirildi (race condition fix), Rust startup probe ve panic hook eklendi. v6.0.5'te Logic'in main fonksiyonuna ulasip ulasmadigi bilinemiyordu. Plus: Diagnostics panel responsive.",
     "forceUpdate": true,
     "minVersion": "1.0.0.0"
 }
