@@ -1,7 +1,7 @@
 {
-    "version": "6.0.6.0",
-    "downloadUrl": "https://github.com/omercnsz/truvadesktop-update/releases/download/v6.0.6/TruvaDesktop_Setup_v6.0.6.exe",
-    "releaseNotes": "v6.0.6 - Logic spawn diagnostic: stdout redirect kaldirildi (race condition fix), Rust startup probe ve panic hook eklendi. v6.0.5'te Logic'in main fonksiyonuna ulasip ulasmadigi bilinemiyordu. Plus: Diagnostics panel responsive.",
+    "version": "6.0.7.0",
+    "downloadUrl": "https://github.com/omercnsz/truvadesktop-update/releases/download/v6.0.7/TruvaDesktop_Setup_v6.0.7.exe",
+    "releaseNotes": "v6.0.7 - Logic spawn KRITIK FIX: Rust print! macro GUI parent'tan spawn'da broken-pipe runtime abort yaratiyordu. Stdout/stderr GUI spawn'da NUL'a redirect ediliyor, log() artik write_all + sonuc yutuyor. Plus UI tam ekran (F11) ve responsive panel.",
     "forceUpdate": true,
     "minVersion": "1.0.0.0"
 }
