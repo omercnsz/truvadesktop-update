@@ -1,7 +1,7 @@
 {
-    "version": "6.0.7.0",
-    "downloadUrl": "https://github.com/omercnsz/truvadesktop-update/releases/download/v6.0.7/TruvaDesktop_Setup_v6.0.7.exe",
-    "releaseNotes": "v6.0.7 - Logic spawn KRITIK FIX: Rust print! macro GUI parent'tan spawn'da broken-pipe runtime abort yaratiyordu. Stdout/stderr GUI spawn'da NUL'a redirect ediliyor, log() artik write_all + sonuc yutuyor. Plus UI tam ekran (F11) ve responsive panel.",
+    "version": "6.0.8.0",
+    "downloadUrl": "https://github.com/omercnsz/truvadesktop-update/releases/download/v6.0.8/TruvaDesktop_Setup_v6.0.8.exe",
+    "releaseNotes": "v6.0.8 — WinDivert lifecycle ve Logic single-instance fix: Setup install öncesi WinDivert kernel driver service durdurulur (.sys overwrite edilebilir). Logic single-instance lock ile çakışma önlenir. Plus WinDivertOpen detaylı hata kodu loglama.",
     "forceUpdate": true,
     "minVersion": "1.0.0.0"
 }
