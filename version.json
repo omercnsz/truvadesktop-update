@@ -1,7 +1,7 @@
 {
-    "version": "6.0.9.0",
-    "downloadUrl": "https://github.com/omercnsz/truvadesktop-update/releases/download/v6.0.9/TruvaDesktop_Setup_v6.0.9.exe",
-    "releaseNotes": "v6.0.9 — Discord-aware logging + IPC race fix + agresif fragmentation: Discord/.gg ailesi icin otomatik 4 segment + kalan FragmentAggressive, her match icin truvarun_engine_match.log dosyasi, C# IPC pipe Write/Read arasi 50ms delay (race fix).",
+    "version": "6.0.10.0",
+    "downloadUrl": "https://github.com/omercnsz/truvadesktop-update/releases/download/v6.0.10/TruvaDesktop_Setup_v6.0.10.exe",
+    "releaseNotes": "v6.0.10 - KRITIK: Logic Rust binary'sine requireAdministrator manifest embed edildi. v6.0.0-v6.0.9'da Logic UI'dan spawn olunca UAC virtualization log/pipe path'lerini yanlis yere yonlendirebiliyordu. Bu surumde Logic her spawn'da admin elevation garanti.",
     "forceUpdate": true,
     "minVersion": "1.0.0.0"
 }
