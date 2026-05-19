@@ -1,7 +1,7 @@
 {
-    "version": "6.0.10.0",
-    "downloadUrl": "https://github.com/omercnsz/truvadesktop-update/releases/download/v6.0.10/TruvaDesktop_Setup_v6.0.10.exe",
-    "releaseNotes": "v6.0.10 - KRITIK: Logic Rust binary'sine requireAdministrator manifest embed edildi. v6.0.0-v6.0.9'da Logic UI'dan spawn olunca UAC virtualization log/pipe path'lerini yanlis yere yonlendirebiliyordu. Bu surumde Logic her spawn'da admin elevation garanti.",
+    "version": "6.0.11.0",
+    "downloadUrl": "https://github.com/omercnsz/truvadesktop-update/releases/download/v6.0.11/TruvaDesktop_Setup_v6.0.11.exe",
+    "releaseNotes": "v6.0.11 - Logic explicit admin spawn: Manifest embed Windows tarafindan uygulanmadigi icin Logic her Oyun Modu BASLAT'ta UAC prompt ile explicit admin elevation talep eder. Kullanici UAC'i kabul edince Logic kesin HighIL admin baslar - UAC virtualization yok, IPC pipe HighIL ACL, log dosyasi gercek path. UAC her seferinde cikar (gecici); v6.1.0'da Logic Windows Service'e donusturulerek UAC kalkacak.",
     "forceUpdate": true,
     "minVersion": "1.0.0.0"
 }
