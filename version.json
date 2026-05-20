@@ -1,7 +1,8 @@
 {
-    "version": "6.0.11.0",
-    "downloadUrl": "https://github.com/omercnsz/truvadesktop-update/releases/download/v6.0.11/TruvaDesktop_Setup_v6.0.11.exe",
-    "releaseNotes": "v6.0.11 - Logic explicit admin spawn: Manifest embed Windows tarafindan uygulanmadigi icin Logic her Oyun Modu BASLAT'ta UAC prompt ile explicit admin elevation talep eder. Kullanici UAC'i kabul edince Logic kesin HighIL admin baslar - UAC virtualization yok, IPC pipe HighIL ACL, log dosyasi gercek path. UAC her seferinde cikar (gecici); v6.1.0'da Logic Windows Service'e donusturulerek UAC kalkacak.",
+    "version": "7.0.0.0",
+    "downloadUrl": "https://github.com/omercnsz/truvadesktop-update/releases/download/v7.0.0/TruvaDesktop_Setup_v7.0.0.exe",
+    "releaseNotes": "v7.0.0 - Tek binary mimari: TruvaRun_Logic.exe ayri process + Named Pipe IPC kalkti. Engine artik TruvaRun_Engine.dll olarak C# UI ile ayni process icinde calisiyor. UAC tek pencere, handshake yok, IPC race yok. v6'nin tum lifecycle/manifest/single-instance sorunlari kokten cozuldu.",
     "forceUpdate": true,
-    "minVersion": "1.0.0.0"
+    "minVersion": "1.0.0.0",
+    "sha256": "62e94ea59ff96aa94cbd756e9bceb91d988e97904cb65549f8f27e99b246af44"
 }
