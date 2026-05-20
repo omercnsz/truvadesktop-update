@@ -1,8 +1,8 @@
 {
-    "version": "7.0.0.0",
-    "downloadUrl": "https://github.com/omercnsz/truvadesktop-update/releases/download/v7.0.0/TruvaDesktop_Setup_v7.0.0.exe",
-    "releaseNotes": "v7.0.0 - Tek binary mimari: TruvaRun_Logic.exe ayri process + Named Pipe IPC kalkti. Engine artik TruvaRun_Engine.dll olarak C# UI ile ayni process icinde calisiyor. UAC tek pencere, handshake yok, IPC race yok. v6'nin tum lifecycle/manifest/single-instance sorunlari kokten cozuldu.",
+    "version": "7.0.1.0",
+    "downloadUrl": "https://github.com/omercnsz/truvadesktop-update/releases/download/v7.0.1/TruvaDesktop_Setup_v7.0.1.exe",
+    "releaseNotes": "v7.0.1 — Hotfix. (1) QUIC handling: Discord/Steam gibi modern HTTP/3 istemcileri icin engine default flags artik QUIC_BLOCK | MSS_CLAMP (0x3) — TCP/443 ClientHello fragment yolu UDP/443 QUIC ile by-pass edilmiyor. (2) Engine restart: ffi.rs OnceLock yerine Mutex<Option> — Stop+Start dongusu artik calisiyor, ikinci init -3 dondurmuyor. (3) Lifecycle: rc=-3 artik shutdown+retry; eski yaniltici 'BASARILI' log'u kalkti.",
     "forceUpdate": true,
     "minVersion": "1.0.0.0",
-    "sha256": "62e94ea59ff96aa94cbd756e9bceb91d988e97904cb65549f8f27e99b246af44"
+    "sha256": "99d1696929f04930615e9d52a63f5450594372e46a42c3a065754b407b8f3bc6"
 }
