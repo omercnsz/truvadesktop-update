@@ -1,8 +1,8 @@
 {
-    "version": "7.0.1.0",
-    "downloadUrl": "https://github.com/omercnsz/truvadesktop-update/releases/download/v7.0.1/TruvaDesktop_Setup_v7.0.1.exe",
-    "releaseNotes": "v7.0.1 — Hotfix. (1) QUIC handling: Discord/Steam gibi modern HTTP/3 istemcileri icin engine default flags artik QUIC_BLOCK | MSS_CLAMP (0x3) — TCP/443 ClientHello fragment yolu UDP/443 QUIC ile by-pass edilmiyor. (2) Engine restart: ffi.rs OnceLock yerine Mutex<Option> — Stop+Start dongusu artik calisiyor, ikinci init -3 dondurmuyor. (3) Lifecycle: rc=-3 artik shutdown+retry; eski yaniltici 'BASARILI' log'u kalkti.",
-    "forceUpdate": true,
+    "version": "8.0.0.0",
+    "downloadUrl": "https://github.com/omercnsz/truvadesktop-update/releases/download/v8.0.0/TruvaDesktop_Setup_v8.0.0.exe",
+    "releaseNotes": "v8.0.0 — Universal DPI Bypass: 15 strateji (TCP+QUIC) + otomatik ogrenme + topluluk ogrenmesi. Detay GitHub release notes.",
+    "forceUpdate": false,
     "minVersion": "1.0.0.0",
-    "sha256": "99d1696929f04930615e9d52a63f5450594372e46a42c3a065754b407b8f3bc6"
+    "sha256": "93d685246a6ef610601c0f231f4f5a53d45c0ed41ef57ed5bd11947ac352489c"
 }
