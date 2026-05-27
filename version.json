@@ -1,8 +1,8 @@
 {
-    "version": "8.0.0.0",
-    "downloadUrl": "https://github.com/omercnsz/truvadesktop-update/releases/download/v8.0.0/TruvaDesktop_Setup_v8.0.0.exe",
-    "releaseNotes": "v8.0.0 — Universal DPI Bypass: 15 strateji (TCP+QUIC) + otomatik ogrenme + topluluk ogrenmesi. Detay GitHub release notes.",
+    "version": "8.0.1.0",
+    "downloadUrl": "https://github.com/omercnsz/truvadesktop-update/releases/download/v8.0.1/TruvaDesktop_Setup_v8.0.1.exe",
+    "releaseNotes": "v8.0.1 — Game Mode DPI-bypass iyilestirmesi: Turk ISP'lerine (TTNET / Turk Telekom, Turkcell Superonline) karsi sahte-paket stratejisi (bad-checksum ClientHello + split, GoodbyeDPI -5/-6 tarzi) varsayilan yapildi. Adaptif strateji sirasi 'fakes-first' olarak yeniden duzenlendi ve gercek auto-TTL kesfi eklendi. Engellenen sitelere baglanti guvenilirligi artirildi.",
     "forceUpdate": false,
     "minVersion": "1.0.0.0",
-    "sha256": "93d685246a6ef610601c0f231f4f5a53d45c0ed41ef57ed5bd11947ac352489c"
+    "sha256": "6bceffc7e84c6ea8cf60c47bfe820868909129ce8b8246f133a7d9544fc0e740"
 }
