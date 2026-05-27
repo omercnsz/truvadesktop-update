@@ -1,8 +1,8 @@
 {
-    "version": "8.0.1.0",
-    "downloadUrl": "https://github.com/omercnsz/truvadesktop-update/releases/download/v8.0.1/TruvaDesktop_Setup_v8.0.1.exe",
-    "releaseNotes": "v8.0.1 — Game Mode DPI-bypass iyilestirmesi: Turk ISP'lerine (TTNET / Turk Telekom, Turkcell Superonline) karsi sahte-paket stratejisi (bad-checksum ClientHello + split, GoodbyeDPI -5/-6 tarzi) varsayilan yapildi. Adaptif strateji sirasi 'fakes-first' olarak yeniden duzenlendi ve gercek auto-TTL kesfi eklendi. Engellenen sitelere baglanti guvenilirligi artirildi.",
+    "version": "8.0.2.0",
+    "downloadUrl": "https://github.com/omercnsz/truvadesktop-update/releases/download/v8.0.2/TruvaDesktop_Setup_v8.0.2.exe",
+    "releaseNotes": "v8.0.2 — Game Mode DPI-bypass duzeltmesi (TR ISP). Sahte-paket stratejisi TTL-tabanliya cevrildi: onceki bozuk-checksum yontemini Turk ISP DPI'lari (TTNET/Turk Telekom, Turkcell Superonline) checksum/SEQ dogrulamasiyla eliyordu. Yeni 'ttl-fake-split': gecerli checksum'li + dusuk-TTL'li sahte ClientHello (DPI'a ulasir, sunucuya varmaz) + SNI ortasindan split (GoodbyeDPI-Turkey -5 --set-ttl mantigi). Gercek auto-TTL kesfi + adaptif TTL-oncelikli siralama + self-healing varsayilan acik.",
     "forceUpdate": false,
     "minVersion": "1.0.0.0",
-    "sha256": "6bceffc7e84c6ea8cf60c47bfe820868909129ce8b8246f133a7d9544fc0e740"
+    "sha256": "33a7b9eaf9fbdc95554cc694b93b30d725a414bb3d51e1cd683f8c8ec98198c6"
 }
