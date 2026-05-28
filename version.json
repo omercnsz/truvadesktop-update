@@ -1,8 +1,8 @@
 {
-    "version": "8.0.3.0",
-    "downloadUrl": "https://github.com/omercnsz/truvadesktop-update/releases/download/v8.0.3/TruvaDesktop_Setup_v8.0.3.exe",
-    "releaseNotes": "v8.0.3 — Discord Testi butonu (stratejileri Discord'a karsi deneyip calisani otomatik bulup uygular), aktif kesif/prober revizesi (artik gercek strateji setini test ediyor: ttl-fake-split, auto-ttl-probe, fake ailesi, disorder...), ve Sorun Bildir butonu (tek tikla tanilama logu gonderimi). v8.0.2'deki TTL-tabanli DPI-bypass varsayilan kalir.",
+    "version": "8.0.4.0",
+    "downloadUrl": "https://github.com/omercnsz/truvadesktop-update/releases/download/v8.0.4/TruvaDesktop_Setup_v8.0.4.exe",
+    "releaseNotes": "v8.0.4 — Sorun Bildir butonu artik calisiyor: tanilama loglari (kullanici onayiyla, tek seferlik) Firebase Firestore'a gonderilir, geri donen Rapor No ile destek hizli inceler. Onceki: TTL-tabanli DPI-bypass varsayilan, Discord Testi (calisani otomatik bulur), prober gercek strateji setini test eder.",
     "forceUpdate": false,
     "minVersion": "1.0.0.0",
-    "sha256": "f9ec9534b39aff2a7754c83c57d004615ccf573e9b261a59152367c0c6db23aa"
+    "sha256": "7ba95eccc6b70d44578ad4d404832c6093c3d36f562a43c8200389c0e14be888"
 }
