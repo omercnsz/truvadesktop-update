@@ -1,8 +1,8 @@
 {
-    "version":  "8.0.8.0",
-    "downloadUrl":  "https://github.com/omercnsz/truvadesktop-update/releases/download/v8.0.8/TruvaDesktop_Setup_v8.0.8.exe",
-    "releaseNotes":  "v8.0.8 - Basit Mod: cok daha guvenilir erisim. Bypass artik secili uygulamalarla sinirli degil, tum sistem TCP/443\u0027une uygulanir (PID-eslesme/zamanlamasi sorunu cozuldu). Anında devreye girer, sonradan acilan uygulamalar da otomatik korunur. Anti-cheat korumasi (Vanguard/EAC/BattlEye/Faceit/Riot) motora gomuldu - her zaman aktif, ban riski yok. Varsayilan strateji (GoodbyeDPI-TR -5 esdegeri) korundu. Sorun surerse Sorun Bildir ile log gonderin (DNS katmani olabilir).",
+    "version":  "8.0.9.0",
+    "downloadUrl":  "https://github.com/omercnsz/truvadesktop-update/releases/download/v8.0.9/TruvaDesktop_Setup_v8.0.9.exe",
+    "releaseNotes":  "v8.0.9 - DNS engelini asan asil cozum. Site acilmama sorununun ana nedeni DNS-duzeyi engelleme idi: duz 8.8.8.8:53 TR\u0027de operator tarafindan ele geciriliyor (zehirleniyor). Artik tum DNS sorgulari sifreli (DoH/HTTPS) cozuluyor - sorgu makineden duz cikmaz, operator zehirleyemez. Win10 ve Win11\u0027de ayni calisir (OS DoH gerekmez), Cloudflare+Quad9 yedekli, basarisizsa duz DNS\u0027e guvenli donus. Ayrica surum yukseltmede eski strateji profilleri temizlenir (guncel default devreye girsin). Basit Mod ve anti-cheat korumasi korundu.",
     "forceUpdate":  false,
     "minVersion":  "1.0.0.0",
-    "sha256":  "a679ee0c7b7773c2ae3dc5b453770bb030a37021a331c40de1339858e836b086"
+    "sha256":  "74b15c8278af88eef33abcacb8ed324745e630c5c3b4e35e9da86ed366ee320e"
 }
