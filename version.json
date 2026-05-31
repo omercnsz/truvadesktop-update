@@ -1,8 +1,8 @@
 {
-    "version":  "8.0.7.0",
-    "downloadUrl":  "https://github.com/omercnsz/truvadesktop-update/releases/download/v8.0.7/TruvaDesktop_Setup_v8.0.7.exe",
-    "releaseNotes":  "v8.0.7 - Varsayilan strateji TR\u0027de en cok dogrulanmis acik kaynak config\u0027ine (GoodbyeDPI-Turkey -5 --set-ttl 5) hizalandi: dusuk-TTL sahte ClientHello + erken (byte-2) bolme + ters sira (disorder). SNI\u0027yi kesmek yerine erken-bolme + sira-disi gonderim + sahte paket kombinasyonuyla DPI asilir; sunucu-guvenli. Adaptif merdiven (seqovl, MD5-fooling, SNI-orta, erken record split) korundu. Anti-cheat korumasi suruyor.",
+    "version":  "8.0.8.0",
+    "downloadUrl":  "https://github.com/omercnsz/truvadesktop-update/releases/download/v8.0.8/TruvaDesktop_Setup_v8.0.8.exe",
+    "releaseNotes":  "v8.0.8 - Basit Mod: cok daha guvenilir erisim. Bypass artik secili uygulamalarla sinirli degil, tum sistem TCP/443\u0027une uygulanir (PID-eslesme/zamanlamasi sorunu cozuldu). Anında devreye girer, sonradan acilan uygulamalar da otomatik korunur. Anti-cheat korumasi (Vanguard/EAC/BattlEye/Faceit/Riot) motora gomuldu - her zaman aktif, ban riski yok. Varsayilan strateji (GoodbyeDPI-TR -5 esdegeri) korundu. Sorun surerse Sorun Bildir ile log gonderin (DNS katmani olabilir).",
     "forceUpdate":  false,
     "minVersion":  "1.0.0.0",
-    "sha256":  "5c069b7d7739c1d1886bca24b6d7ae0104fccdf188836764858066b4efbedb22"
+    "sha256":  "a679ee0c7b7773c2ae3dc5b453770bb030a37021a331c40de1339858e836b086"
 }
