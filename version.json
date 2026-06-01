@@ -1,8 +1,8 @@
 {
-    "version":  "8.0.10.0",
-    "downloadUrl":  "https://github.com/omercnsz/truvadesktop-update/releases/download/v8.0.10/TruvaDesktop_Setup_v8.0.10.exe",
-    "releaseNotes":  "v8.0.10 - Masaustu uygulamalari icin sifreli DNS. Web zaten calisiyordu (tarayicilar kendi DoH\u0027unu kullanir) ama masaustu uygulamalari (Discord vb.) OS DNS\u0027ini kullandigi icin TR port-53 hijack\u0027i onlari zehirliyordu. Artik uygulama 127.0.0.1\u0027de yerel bir DoH proxy calistirir ve sistem DNS\u0027ini buna yonlendirir - tum DNS HTTPS uzerinden cozulur, operator zehirleyemez. Win10/11 ayni. DoH erisilemezse guvenli yedek (DNS kopmaz). Ayrica rapora otomatik Discord baglanti testi eklendi (tani icin).",
-    "forceUpdate":  false,
+    "version":  "8.0.11.0",
+    "downloadUrl":  "https://github.com/omercnsz/truvadesktop-update/releases/download/v8.0.11/TruvaDesktop_Setup_v8.0.11.exe",
+    "releaseNotes":  "v8.0.11 - DNS guvenlik duzeltmesi. v8.0.10\u0027da bazi kullanicilarda Oyun Modu acilinca internet kopabiliyordu (sistem DNS\u0027i 127.0.0.1\u0027e alindiktan sonra sifreli DNS sunucusuna erisim yoksa tum DNS oluyordu). Artik: sistem DNS\u0027i devralinmadan ONCE sifreli DNS\u0027in calistigi DOGRULANIR (calismiyorsa duz DNS\u0027te kalinir, internet kopmaz); sifreli DNS sunuculari paralel denenir (biri bloklu/yavassa digeri aninda cevaplar); proxy aktifken bile ikincil DNS guvenlik agi birakilir. Internetiniz gittiyse Oyun Modu\u0027nu kapatin (DNS otomatik geri yuklenir).",
+    "forceUpdate":  true,
     "minVersion":  "1.0.0.0",
-    "sha256":  "254917d146269b3de40ccfdcf7468f691e09fafae757c871eaed92bb1fd0a6a9"
+    "sha256":  "739c96ff767b612ee056bd65b9dbbb1123076e590282226001228817285e1233"
 }
