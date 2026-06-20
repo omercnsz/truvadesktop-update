@@ -1,8 +1,8 @@
 {
-    "version":  "8.0.11.0",
-    "downloadUrl":  "https://github.com/omercnsz/truvadesktop-update/releases/download/v8.0.11/TruvaDesktop_Setup_v8.0.11.exe",
-    "releaseNotes":  "v8.0.11 - DNS guvenlik duzeltmesi. v8.0.10\u0027da bazi kullanicilarda Oyun Modu acilinca internet kopabiliyordu (sistem DNS\u0027i 127.0.0.1\u0027e alindiktan sonra sifreli DNS sunucusuna erisim yoksa tum DNS oluyordu). Artik: sistem DNS\u0027i devralinmadan ONCE sifreli DNS\u0027in calistigi DOGRULANIR (calismiyorsa duz DNS\u0027te kalinir, internet kopmaz); sifreli DNS sunuculari paralel denenir (biri bloklu/yavassa digeri aninda cevaplar); proxy aktifken bile ikincil DNS guvenlik agi birakilir. Internetiniz gittiyse Oyun Modu\u0027nu kapatin (DNS otomatik geri yuklenir).",
+    "version":  "8.0.12.0",
+    "downloadUrl":  "https://github.com/omercnsz/truvadesktop-update/releases/download/v8.0.12/TruvaDesktop_Setup_v8.0.12.exe",
+    "releaseNotes":  "v8.0.12 - Oyun Modu kararlilik duzeltmesi. Oyun Modu calisirken Discord Testi ve Uygulama Ekle/Sil islemleri artik devre disi birakildi. Onceki: test sirasinda motorun aktif filtresi gecici bosaliyor, uygulama listesi degisimi de filtreyi sifirliyordu; her ikisi de korumayi bir anligina bozabiliyordu. Artik bu islemler Oyun Modu durdurulunca tekrar etkinlesir; bir kez baslatilan koruma arayuzden yanlislikla bozulamaz.",
     "forceUpdate":  true,
     "minVersion":  "1.0.0.0",
-    "sha256":  "739c96ff767b612ee056bd65b9dbbb1123076e590282226001228817285e1233"
+    "sha256":  "173e33b97b573bee3d5ce9bf23b67ace3b8edadac5c4c8c08c691942e6d91056"
 }
